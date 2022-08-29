@@ -39,8 +39,8 @@ node_modules/
 jspm_packages/
 
 # Storybook
-# .nuxt-storybook
-# storybook-static
+.nuxt-storybook
+storybook-static
 
 # TypeScript v1 declaration files
 typings/
