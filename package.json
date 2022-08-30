@@ -2,6 +2,9 @@
   "name": "nuxt2-ts-storybook-template1",
   "version": "1.0.0",
   "private": true,
+  "stackblitz": {
+    "startCommand": "yarn nuxt storybook"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
