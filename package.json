@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "stackblitz": {
-    "startCommand": "yarn nuxt storybook"
+    "startCommand": "yarn storybook"
   },
   "scripts": {
     "dev": "nuxt",
