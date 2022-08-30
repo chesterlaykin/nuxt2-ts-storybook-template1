@@ -1,12 +1,13 @@
-# vue-nuxt-templates
+Nuxt2-ts-storybook : template 1
 
-- [vue-nuxt-templates](#vue-nuxt-templates)
-  - [DEPENDENCIES](#dependencies)
+- [Installed dependencies + configurations](#installed-dependencies--configurations)
+  - [**Typescript**](#typescript)
+    - [nuxt-property-decorator](#nuxt-property-decorator)
   - [**Storybook**](#storybook)
     - [**@nuxtjs/storybook**](#nuxtjsstorybook)
-    - [**Added to gitignore: .nuxt-storybook + storybook-static**](#added-to-gitignore-nuxt-storybook--storybook-static)
-    - [**Command was run: yarn nuxt storybook**](#command-was-run-yarn-nuxt-storybook)
-    - [**Command was run: yarn nuxt storybook eject**](#command-was-run-yarn-nuxt-storybook-eject)
+    - [**Gitignore**](#gitignore)
+    - [**Command: yarn nuxt storybook**](#command-yarn-nuxt-storybook)
+    - [**Command: yarn nuxt storybook eject**](#command-yarn-nuxt-storybook-eject)
     - [**main.js**](#mainjs)
     - [**@storybook/addon-a11y**](#storybookaddon-a11y)
     - [**postcss 8**](#postcss-8)
@@ -18,7 +19,7 @@
 
 Starter projects with different dependencies and setups, ready to use
 
-## DEPENDENCIES
+# Installed dependencies + configurations
 
 Nuxt 2 (Created with `yarn create nuxt-app` )
 
@@ -28,24 +29,33 @@ Nuxt 2 (Created with `yarn create nuxt-app` )
   - (adds: @nuxt/types, @nuxt/typescript-build )
 - Axios
 
+## **Typescript**
+
+### nuxt-property-decorator
+
+To use with class based components (provided by @nuxt/typescript-build)
+
 ## **Storybook**
 
 ### **@nuxtjs/storybook**
 
 Storybook for Nuxt 2
 
-### **Added to gitignore: .nuxt-storybook + storybook-static**
+### **Gitignore**
+
+Added to gitignore:
 
 .nuxt-storybook
+
 storybook-static
 
-### **Command was run: yarn nuxt storybook**
+### **Command: yarn nuxt storybook**
 
-It generated the .nuxt-storybook folder.
+Command `yarn nuxt storybook` was run, which generated the **.nuxt-storybook** folder.
 
-### **Command was run: yarn nuxt storybook eject**
+### **Command: yarn nuxt storybook eject**
 
-It generated the ".storybook" folder
+Command `yarn nuxt storybook eject` was run, which generated the ".storybook" folder
 
 ### **main.js**
 
